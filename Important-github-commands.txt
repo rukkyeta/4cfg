@@ -1,0 +1,15 @@
+git init   
+ls -a    
+git add day4demo_first_file.txt 
+git commit -m "first commit of the day for the first file" 
+git branch  
+git branch -M main   
+git remote add origin https://github.com/rukkyeta/4cfg.git      
+git push -u origin main   
+git branch rukky  
+git checkout 'rukky'    
+git push -u origin rukky  
+git add .    
+git commit -m "this is commit for rukky branch"  
+git push -u origin rukky   
+git branch   
